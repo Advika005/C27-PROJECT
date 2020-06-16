@@ -39,6 +39,10 @@ function draw() {
   background(0);
 
   text(mouseX+","+mouseY,200,200);
+
+  fill("blue");
+  textSize(50);
+  text("Newton's Cradle",90,50);
 bob1.display();
 bob2.display();
 bob3.display();
